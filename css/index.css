@@ -1,5 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .nav-bar {
@@ -7,55 +7,131 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fffdd0;
+  align-items: center;
+  background-color: #f1dac4;
   padding: 20px;
 }
 
 .nav-bar-links a {
-  color: #635e00;
-  border: 2px solid #635e00;
+  color: #161b33;
+  border: 2px solid #161b33;
   border-radius: 8px;
   padding: 5px;
   text-decoration: none;
 }
 
 .nav-bar-links a:hover {
-  background-color: #635e00;
-  color: #fffdd0;
+  background-color: #161b33;
+  color: #f1dac4;
   padding: 8px;
 }
 
-.intro-container {
+.logo {
+  color: #474973;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.logo:hover {
+  border: 2px solid #474973;
+  padding: 8px;
+}
+
+.section-container {
   display: grid;
   justify-items: center;
-  background-color: #211f00;
-  color: #fffdd0;
+  background-color: #a69cac;
+  color: #161b33;
   margin: 20px;
   padding: 20px;
+  border: 2px solid #161b33;
   border-radius: 8px;
 }
 
-.title-section {
-  border-bottom: 2px solid #fffdd0;
+.section-title {
+  border-bottom: 2px solid #161b33;
   border-radius: 8px;
   font-weight: bold;
   padding: 10px 15px;
   margin: 20px auto;
 }
 
-.title-section:hover {
-  width: 50%;
-  border-bottom: 2px solid #fffdd0;
-  /* margin: 20px auto; */
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 115px;
+  padding: 20px;
 }
+
+.hire-button {
+  text-decoration: none;
+  color: white;
+  background: #161b33;
+  padding: 15px;
+  border-radius: 8px;
+  width: 130px;
+  gap: 10px;
+}
+
+.hire-button:hover {
+  padding: 12px;
+}
+
+/* -------------------------------------------------------------- 
+ABOUT US
+--------------------------------------------------------------- */
+.aboutus-description {
+  margin: 20px auto;
+  width: 80%;
+  border-left: 2px solid #161b33;
+  border-right: 2px solid #161b33;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.skills-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.skills-card {
+  width: 28%;
+  border: 2px solid #161b33;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 5px 5px #161b33;
+}
+
+.skills-card h6{
+      margin-left: 20px;
+}
+
+.skills-card:hover{
+  transform: translate(-10px , -10px);
+}
+
+.skills-card a {
+  text-decoration: none;
+  color: #161b33;
+  padding: 10px;
+}
+
+/* -------------------------------------------------------------- 
+FOOTER
+--------------------------------------------------------------- */
 
 footer {
   width: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
-  background: #fffdd0;
-  position: absolute;
+  background: #f1dac4;
+  color: #161b33;
+  position: relative;
   bottom: 1px;
   left: 1px;
   border-radius: 8px;
