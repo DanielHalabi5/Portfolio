@@ -2,7 +2,7 @@
 My first Portfolio In 4finance
 
 
-# Website Color Pallete:
+## Website Color Pallete:
 
 Navigation Bar bg-color: #f1dac4
 Body Containers bg-color: #a69cac
